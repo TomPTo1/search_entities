@@ -1,0 +1,19 @@
+{
+  "name": "search-entities",
+  "version": "1.0.0",
+  "description": "Gemini Interactions API 기반 브랜드 검색 및 분석 CLI",
+  "type": "module",
+  "scripts": {
+    "search": "npx tsx search.ts",
+    "analyze": "npx tsx analyze.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "jsonrepair": "^3.11.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3"
+  }
+}
