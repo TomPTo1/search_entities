@@ -156,8 +156,10 @@ search.ts → interactionId → analyze.ts (Phase 1) → Phase 2 → Phase 3
 ## 파일 구조
 
 ```
-scripts/brand/
+search_entities/
 ├── README.md           # 이 문서
+├── package.json        # 프로젝트 설정
+├── .env.example        # 환경변수 예시
 ├── search.ts           # 검색 API CLI
 ├── analyze.ts          # 분석 API CLI (3-Phase)
 └── lib/
