@@ -15,13 +15,17 @@ import {
 import type { BrandAnalyzeResult, BrandAnalyzeResponse } from './lib/types';
 import { jsonrepair } from 'jsonrepair';
 
-// 빈 필드 검사 대상
+// 빈 필드 검사 대상 (Phase 3에서 보충 시도)
 const OPTIONAL_FIELDS = [
+	'ownerCompany',
 	'foundedYear',
+	'brandOverview',
 	'brandConcept',
 	'mainExportCountries',
+	'mainCategories',
 	'awards',
 	'certifications',
+	'country',
 	'manufacturingCountry',
 	'manufacturingType',
 	'history'
